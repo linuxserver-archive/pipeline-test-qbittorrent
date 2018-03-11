@@ -61,7 +61,7 @@ RUN \
 	/tmp/qbittorrent-src && \
  curl -o \
  /tmp/bittorrent.tar.gz -L \
-	"https://github.com/qbittorrent/qBittorrent/archive/release-${QBITTORRENT_TAG}.tar.gz" && \
+	"https://github.com/qbittorrent/qBittorrent/archive/${QBITTORRENT_TAG}.tar.gz" && \
  tar xf \
  /tmp/bittorrent.tar.gz -C \
 	/tmp/qbittorrent-src --strip-components=1 && \
